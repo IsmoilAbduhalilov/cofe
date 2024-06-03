@@ -177,6 +177,10 @@
   .br {
     display: none;
   }
+  .box_res {
+    display: flex;
+    justify-content: center;
+  }
 }
 .cofe {
   background-color: #2C343E;
@@ -282,6 +286,9 @@
   }
   .cofe .fio {
     width: 260px;
+  }
+  .cofe .fio {
+    margin-bottom: 20px;
   }
 }
 .ffvvbgb {
@@ -399,6 +406,7 @@
   }
   .pll {
     display: block;
+    margin: 0 auto;
   }
   .aaa {
     display: flex;
