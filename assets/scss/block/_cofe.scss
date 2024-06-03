@@ -1,0 +1,106 @@
+.cofe{
+    background-color: #2C343E;
+    padding-bottom: 60px;
+.usa{
+padding-top: 100px;
+text-align: center;
+margin-top: 246px;
+}
+.why{
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FEFCF7;
+    padding-bottom: 32px;
+}
+.ofi{
+display: flex;
+justify-content: space-around;
+padding-top: 86px;
+}
+.large{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+}
+.fio{
+background-color: #0A6260;
+}
+.lio{
+display: flex;
+justify-content: center;
+padding-top: 72px;
+margin-left: 5px;
+padding-bottom: 56px;
+}
+.oil{
+text-align: center;
+}
+.best{
+padding-bottom: 24px;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-weight: 900;
+color: #FEFCF7;
+padding-top: 47px;
+}
+.an{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+    padding-bottom: 48px;
+}
+}
+@media (max-width:1281px) {
+    .cofe .ofi{
+    display: block;
+    }
+    .cofe .fio{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 560px;
+    }
+}
+@media (max-width:562px) {
+    .cofe .fio{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 440px;
+        }
+        .cofe .large{
+        font-size: 7px;
+        }
+}
+
+@media (max-width:443px) {
+  .cofe .best{
+font-size: 10px;
+}
+.cofe .an{
+font-size: 10px;
+}
+.cofe .fio{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 340px;
+    }
+}
+@media (max-width:376px) {
+ .cofe .fio{
+display: block;
+}
+.cofe .fio img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 29px;
+    }
+    .cofe .fio{
+        width: 260px;
+        }
+  }

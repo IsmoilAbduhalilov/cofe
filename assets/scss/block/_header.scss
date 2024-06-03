@@ -1,0 +1,52 @@
+.header{
+display: flex;
+justify-content: space-around;
+padding-top: 44px;
+margin-bottom: 44px;
+.header_p {
+display: flex;
+gap: 33px;
+}
+.ba{
+display: none;
+}
+.header_p li a{
+    display: flex;
+  font-family: Barlow;
+  font-weight: 700;
+  color: #83888F;
+    }
+    .home:hover a{
+    color: #333D4B;
+    transition: 0.8s;
+    } 
+    .about:hover a{
+        color: #333D4B;
+        transition: 0.8s;
+        } 
+        .your:hover a{
+            color: #333D4B;
+            transition: 0.3s;
+            } 
+            @media (max-width:769px) {
+                .header_p li a{
+                font-size: 12px;
+                }
+            }
+            @media (max-width:591px){
+                .header_img img{
+                    width: 120px;
+                    }
+                    .header_p li a{
+                        font-size: 8px;
+                        }
+            }
+            @media (max-width:376px){
+                    .header_p li a{
+                    display: none;
+                        }
+                        .ba{
+                        display: block;
+                        }
+            }
+}

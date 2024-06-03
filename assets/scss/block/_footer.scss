@@ -1,0 +1,44 @@
+.footer{
+display: flex;
+justify-content: space-around;
+background-color: #2C343E;
+margin-top: 203px;
+padding-top: 47px;
+padding-bottom: 47px;
+.ul2{
+display: flex;
+gap: 33px;
+}
+.ul2 li a{
+color: #83888F;
+font-family: Barlow;
+font-weight: 700;
+font-size: 16px;
+}
+.ho a:hover{
+color: #FEFCF7;
+transition: 0.3s;
+}
+.hoo a:hover{
+    color: #FEFCF7;
+    transition: 0.3s;
+    }
+    .hooo a:hover{
+        color: #FEFCF7;
+        transition: 0.3s;
+        }
+        .dix{
+        display: flex;
+        gap: 19px;
+        }
+}
+@media (max-width:769px) {
+    .footer{
+    display: block;
+    }
+}
+@media (max-width:376px) {
+    .footer .ul2{
+    display: block;
+    }
+}

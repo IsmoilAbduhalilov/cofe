@@ -1,0 +1,45 @@
+.box{
+    margin-top: 216px;
+    display: flex;
+justify-content: space-around;
+.gran{
+text-align: center;
+padding-top: 71px;
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-weight: 900;
+color: #333D4B;
+padding-bottom: 24px;
+}
+.and{
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333D4B;
+    text-align: center;
+}
+@media (max-width:978px) {
+    .and{
+    font-size: 7px;
+    }
+   .gran{
+font-size: 10px;
+}
+}
+}
+@media (max-width:1281px) {
+    .box{
+    display: block;
+    }
+    .box2{
+    display: flex;
+    }
+}
+@media (max-width:376px) {
+    .box2{
+        display: block;
+        }
+        .br{
+        display: none;
+        }
+}
