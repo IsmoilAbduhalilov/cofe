@@ -247,6 +247,8 @@
     justify-content: center;
     margin: 0 auto;
     width: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .cofe .large {
     font-size: 7px;
@@ -264,11 +266,15 @@
     justify-content: center;
     margin: 0 auto;
     width: 340px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 376px) {
   .cofe .fio {
     display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .cofe .fio img {
     display: flex;
@@ -278,6 +284,8 @@
   }
   .cofe .fio {
     width: 260px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 .ffvvbgb {
