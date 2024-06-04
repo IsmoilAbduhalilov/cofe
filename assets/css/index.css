@@ -247,6 +247,8 @@
     justify-content: center;
     margin: 0 auto;
     width: 560px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 562px) {
@@ -286,9 +288,6 @@
   }
   .cofe .fio {
     width: 260px;
-  }
-  .cofe .fio {
-    margin-bottom: 20px;
   }
 }
 .ffvvbgb {
