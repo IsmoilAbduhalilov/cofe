@@ -420,13 +420,16 @@
     justify-content: center;
   }
 }
-.footer {
-  display: flex;
-  justify-content: space-around;
+.footer_res {
   background-color: #2C343E;
   margin-top: 203px;
   padding-top: 47px;
   padding-bottom: 47px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
 }
 .footer .ul2 {
   display: flex;
@@ -459,9 +462,24 @@
   .footer {
     display: block;
   }
+  .footer_res {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .ul2 {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 376px) {
   .footer .ul2 {
     display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer_res {
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=index.css.map */
